@@ -1,7 +1,9 @@
 # B351FinalProject
 #Sam Rasmussen and Nick Mathein B351 Final Project
 
-#Despcription of Project:
+#Despcription of Project and Installation:
+
+#Python3 must be installed on your device in order to properly run the following code.
 
 ##Linear Regression Script##
 """
@@ -20,5 +22,10 @@ Then we iterate through the stock tickers and create graphs that have the actual
 Print the Mean standard error for each as well.
 """
 
+#LSTM RNN Model
+"""
+#The code includes all the neccesary libraries you will need to perform the Long-Short Term Memory Recurrent Neural Network Model. The libraries include: SKLearn, Keras, YFinance, Pandas, Tensorflow.Keras, and MatPlotLib. These are all necessary to perform the functions of the model, the collection and reading of data, and the visualization of the graphs.
 
-#Installing packages required to run the code:
+The coding process began with the declaration of the time periods for the training and testing data followed by a function, Collect_Data, which retrieved historical data from the library YFinance. 
+
+"""
