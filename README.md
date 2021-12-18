@@ -1,9 +1,9 @@
 # B351FinalProject
 #Sam Rasmussen and Nick Mathein B351 Final Project
 
-#Despcription of Project and Installation:
+#Description of Project and Installation:
 
-#Python3 must be installed on your device in order to properly run the following code.
+#Python3 must be installed on your device in order to properly run the code in this repository.
 
 ##Linear Regression Script##
 """
@@ -26,6 +26,9 @@ Print the Mean standard error for each as well.
 """
 #The code includes all the neccesary libraries you will need to perform the Long-Short Term Memory Recurrent Neural Network Model. The libraries include: SKLearn, Keras, YFinance, Pandas, Tensorflow.Keras, and MatPlotLib. These are all necessary to perform the functions of the model, the collection and reading of data, and the visualization of the graphs.
 
-The coding process began with the declaration of the time periods for the training and testing data followed by a function, Collect_Data, which retrieved historical data from the library YFinance. 
+Overall, the Long-Short Term Memory RNN provides a representation of a Next-Day Closing Price Stock Predictor.
+
+The coding process began with the declaration of the time periods for the training and testing data followed by a function, Collect_Data, which retrieved historical data from the library YFinance. We used the MinMaxScaler function in the SKLearn library in order to make the data more normal and scale it in-between 0 and 1. Since we are working with a LSTM RNN, we had to add to our array so we created a loop to make the data more concise for it to go through our model. Then we went through the actual model with there layers. For this part you must have TensorFlow and Keras installed. Finally the actual predictions are made by calling the prediction on the testing data we included. 
+
 
 """
